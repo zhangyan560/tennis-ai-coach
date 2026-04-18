@@ -36,10 +36,10 @@ export default function Home() {
           <span className="font-semibold text-lg">TennisAI</span>
         </div>
         <a
-          href="#waitlist"
+          href="/upload"
           className="text-sm font-medium text-tennis-green hover:underline"
         >
-          Join Waitlist
+          Try It Free
         </a>
       </nav>
 
@@ -58,10 +58,10 @@ export default function Home() {
         </p>
         <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center items-center">
           <a
-            href="#waitlist"
+            href="/upload"
             className="px-8 py-3.5 rounded-full bg-tennis-green text-white font-semibold text-base hover:bg-tennis-green-light transition-colors"
           >
-            Get Early Access — $4.99/mo
+            Analyze My Swing — Free
           </a>
           <span className="text-gray-400 text-sm">No credit card required</span>
         </div>
@@ -309,7 +309,7 @@ export default function Home() {
               </li>
             </ul>
             <a
-              href="#waitlist"
+              href="/upload"
               className="block w-full py-3 rounded-full bg-tennis-green text-white font-semibold text-center hover:bg-tennis-green-light transition-colors"
             >
               Lock in $4.99/mo
